@@ -1,11 +1,17 @@
-//Problem 1:Declare 3 variables for your name, age, and city. Print all of them.
+//Problem 2:Declare two integer variables:Calculate sum, difference, product, and quotient.
+//print all result
 
 void main() {
-  var name = 'Raana';
-  var age = 25;
-  var city = 'Dhaka';
+  var x = 500;
+  var y = 20;
 
-  print("Name is = $name");
-  print("Age is = $age");
-  print("city is = $city");
+  var sum = x + y;
+  var diffrence = x - y;
+  var product = x * y;
+  var quotient = x / y;
+
+  print("The sum result is= $sum");
+  print("The diffrence result is= $diffrence");
+  print("The product result is= $product");
+  print("The quotient result is= $quotient");
 }
