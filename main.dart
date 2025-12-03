@@ -1,7 +1,11 @@
-void main() {
-  var x = 10;
-  var y = 20;
+//Problem 1:Declare 3 variables for your name, age, and city. Print all of them.
 
-  var sum = x + y;
-  print("your result is= $sum");
+void main() {
+  var name = 'Raana';
+  var age = 25;
+  var city = 'Dhaka';
+
+  print("Name is = $name");
+  print("Age is = $age");
+  print("city is = $city");
 }
